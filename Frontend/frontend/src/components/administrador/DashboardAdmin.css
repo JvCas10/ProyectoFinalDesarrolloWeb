@@ -1,0 +1,197 @@
+/* Estilo general del dashboard de administración */
+.dashboard-admin {
+    font-family: Arial, sans-serif;
+    color: #E6E6E6;
+    background-color: #39393A;
+    padding: 20px;
+    max-width: 900px;
+    margin-top: 1270px; /* Espacio grande en la parte superior */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* Títulos */
+.dashboard-admin h1,
+.dashboard-admin h2 {
+    color: #E9D758;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.dashboard-admin h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+    padding-left: 5px;
+}
+
+/* Formularios */
+.dashboard-admin .form-curso,
+.dashboard-admin .form-usuario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #297373;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs y selects */
+.dashboard-admin input,
+.dashboard-admin select,
+.dashboard-admin textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #39393A;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dashboard-admin textarea {
+    resize: vertical;
+}
+
+/* Botones generales */
+.dashboard-admin button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #39393A;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+/* Botones de acción principal */
+.dashboard-admin .btn-add {
+    background-color: #FF8552;
+}
+
+.dashboard-admin .btn-add:hover {
+    background-color: #E9D758;
+}
+
+.dashboard-admin .btn-update {
+    background-color: #297373;
+}
+
+.dashboard-admin .btn-update:hover {
+    background-color: #FF8552;
+}
+
+.dashboard-admin .btn-cancel {
+    background-color: #E9D758;
+    color: #39393A;
+}
+
+.dashboard-admin .btn-cancel:hover {
+    background-color: #FF8552;
+    color: #E6E6E6;
+}
+
+/* Contenedor de botones */
+.dashboard-admin .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Listas de cursos y usuarios */
+.dashboard-admin .cursos-list,
+.dashboard-admin .usuarios-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.dashboard-admin .curso-item,
+.dashboard-admin .usuario-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #297373;
+    border-radius: 5px;
+    color: #E6E6E6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+/* Grupo de botones de acción */
+.dashboard-admin .button-group {
+    display: flex;
+    gap: 8px;
+}
+
+.dashboard-admin .button-group button {
+    background-color: #FF8552;
+    color: #E6E6E6;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-admin .button-group button:hover {
+    background-color: #E9D758;
+    color: #39393A;
+}
+
+/* Botón de "Ver Progreso de Estudiantes" */
+.dashboard-admin .btn-progreso {
+    background-color: #FF8552;
+    color: #E6E6E6;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: inline-block;
+}
+
+.dashboard-admin .btn-progreso:hover {
+    background-color: #E9D758;
+    color: #39393A;
+}
+
+/* Ajustes del body */
+body {
+    background-color: #39393A;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #E6E6E6;
+}
+
+/* Alineación de elementos en el formulario de curso */
+.form-curso .leccion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #39393A;
+    border-radius: 5px;
+    color: #E6E6E6;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}

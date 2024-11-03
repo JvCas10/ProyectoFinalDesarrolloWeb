@@ -1,0 +1,37 @@
+.progreso-estudiantes-container {
+    max-width: 800px;
+    margin: 40px auto; /* Centra el contenedor */
+    padding: 20px;
+    background-color: #39393A;
+    color: #E6E6E6;
+    border-radius: 8px;
+    text-align: center;
+    max-height: 87vh; /* Ajuste de altura máxima a 90% de la altura de la pantalla */
+    overflow-y: auto; /* Activa el desplazamiento vertical */
+}
+
+.usuario-card {
+    background-color: #297373;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.usuario-card h2 {
+    color: #E9D758;
+}
+
+.curso-card {
+    background-color: #212529;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.curso-card h3 {
+    color: #FF8552;
+}
+
+.curso-card p {
+    color: #C1FFF2;
+}

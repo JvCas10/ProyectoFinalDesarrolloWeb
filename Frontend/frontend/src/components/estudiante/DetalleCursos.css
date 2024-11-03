@@ -1,0 +1,109 @@
+.detalle-curso-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #297373;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.detalle-curso-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #E9D758;
+}
+
+.detalle-curso-header p {
+  color: #C1FFF2;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.lecciones-container {
+  margin-top: 20px;
+}
+
+.leccion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background: #39393A;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leccion-title {
+  font-weight: bold;
+  color: #E6E6E6;
+  margin-bottom: 8px;
+}
+
+.leccion-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.leccion-evaluacion-link,
+.leccion-material-link {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.leccion-evaluacion-link {
+  background-color: #FF8552;
+}
+
+.leccion-evaluacion-link:hover {
+  background-color: #E9D758;
+}
+
+.leccion-material-link {
+  background-color: #E9D758;
+}
+
+.leccion-material-link:hover {
+  background-color: #FF8552;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.inscribirse-btn,
+.ver-progreso-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #E6E6E6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inscribirse-btn {
+  background-color: #FF8552;
+}
+
+.inscribirse-btn:hover {
+  background-color: #E9D758;
+}
+
+.ver-progreso-btn {
+  background-color: #E9D758;
+}
+
+.ver-progreso-btn:hover {
+  background-color: #FF8552;
+}
